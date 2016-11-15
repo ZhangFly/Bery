@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FIRMWARE\inc -I..\SERVICE\inc -I..\APP\inc
+-I \\Mac\Home\Documents\Project\Bery\USER\RTE
+-I C:\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include
+-I C:\Keil\ARM\CMSIS\Include
+-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER
+-o ..\obj\ch340.o --omf_browse ..\obj\ch340.crf --depend ..\obj\ch340.d "..\FIRMWARE\src\ch340.c"

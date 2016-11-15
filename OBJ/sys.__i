@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FIRMWARE\adc -I..\FIRMWARE\dac -I..\FIRMWARE\led -I..\FIRMWARE\sensor -I..\FIRMWARE\spi -I..\FIRMWARE\tim -I..\FIRMWARE\usart -I..\FIRMWARE\gpio -I..\SERVICE\net -I..\SERVICE\sample -I..\SERVICE\buffer -I..\APP\pressure -I..\APP\send2pc
+-I \\Mac\Home\Documents\Project\Bery-P\USER\RTE
+-I C:\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include
+-I C:\Keil\ARM\CMSIS\Include
+-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER
+-o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d "..\SYS\sys.c"

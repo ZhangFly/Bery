@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\FIRMWARE\adc -I..\FIRMWARE\dac -I..\FIRMWARE\led -I..\FIRMWARE\sensor -I..\FIRMWARE\spi -I..\FIRMWARE\tim -I..\FIRMWARE\usart -I..\SERVICE\net -I..\SERVICE\sample -I..\FIRMWARE\iwdg -I..\FIRMWARE\wwdg -I..\SYSTEM\sys -I..\APP -I..\SERVICE\mutex
+-I \\Mac\Home\Documents\Project\Bery\USER\RTE
+-I C:\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include
+-I C:\Keil\ARM\CMSIS\Include
+-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER
+-o ..\obj\dac.o --omf_browse ..\obj\dac.crf --depend ..\obj\dac.d "..\FIRMWARE\dac\dac.c"

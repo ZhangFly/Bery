@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\APP\pressure -I..\APP\send2pc -I..\SERVICE\buffer -I..\SERVICE\net -I..\SERVICE\scan -I..\HARDWARE\factory -I..\HARDWARE\house\adc -I..\HARDWARE\house\gpio -I..\HARDWARE\house\idac -I..\HARDWARE\house\led -I..\HARDWARE\house\sensor -I..\HARDWARE\house\spi -I..\HARDWARE\house\tim -I..\HARDWARE\house\usart
+-I \\Mac\Home\Documents\Project\Bery-P\USER\RTE
+-I C:\Keil\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include
+-I C:\Keil\ARM\CMSIS\Include
+-D__UVISION_VERSION="515" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER
+-o ..\obj\gpio.o --omf_browse ..\obj\gpio.crf --depend ..\obj\gpio.d "..\HARDWARE\house\gpio\gpio.c"
